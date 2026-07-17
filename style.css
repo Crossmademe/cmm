@@ -144,10 +144,7 @@ nav a.active::after{
 /* Verse */
 .verse{background:var(--black);color:#fff;padding:80px 20px;text-align:center}
 .verse-inner{max-width:820px}
-.quote-mark{
-  display:block;font-family:'Bebas Neue',sans-serif;
-  font-size:3rem;color:var(--gold);line-height:0;margin-bottom:1rem;
-}
+.quote-mark{color:var(--gold)}
 .verse h2{font-size:2rem;line-height:1.4;font-family:'Bebas Neue',sans-serif;text-transform:uppercase;margin-bottom:14px}
 .verse p{color:var(--gold);letter-spacing:.1em;font-size:.85rem;text-transform:uppercase;font-weight:700}
 
