@@ -431,3 +431,19 @@ footer{background:var(--black);color:#cfcac0;padding-top:70px}
   margin-top:40px;padding:16px 20px;background:#efe9db;border-radius:4px;
   font-size:.8rem;color:var(--gray-text);font-style:italic;
 }
+
+/* Thank you page */
+.thanks-section{padding:90px 0;display:flex;justify-content:center}
+.thanks-box{
+  max-width:560px;text-align:center;background:#fff;
+  padding:56px 44px;border-radius:var(--radius);
+  box-shadow:0 10px 40px rgba(0,0,0,.07);
+  border-top:4px solid var(--gold);
+}
+.thanks-check{
+  display:inline-flex;width:64px;height:64px;color:var(--gold);margin-bottom:20px;
+}
+.thanks-check svg{width:100%;height:100%}
+.thanks-box h2{font-size:1.8rem;margin-bottom:16px;color:var(--ink)}
+.thanks-box p{color:var(--gray-text);margin-bottom:18px}
+.thanks-box .btn{margin-top:10px}
