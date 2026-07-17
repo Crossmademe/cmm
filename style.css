@@ -132,6 +132,14 @@ nav a.active::after{
 .split-content h2{font-size:2.6rem;margin-bottom:18px}
 .split-content p{color:var(--gray-text);margin-bottom:16px;max-width:520px}
 .split-content .btn{margin-top:10px}
+.about-tagline{
+  font-family:'Bebas Neue',sans-serif;font-size:1.4rem;letter-spacing:.02em;
+  color:var(--gold-dark);margin-bottom:16px !important;
+}
+.about-note{
+  font-style:italic;font-size:.88rem;color:#7d7869;
+  border-top:1px solid rgba(0,0,0,.1);padding-top:16px;margin-top:6px;
+}
 
 /* Verse */
 .verse{background:var(--black);color:#fff;padding:80px 20px;text-align:center}
