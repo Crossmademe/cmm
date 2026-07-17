@@ -42,31 +42,29 @@ active: contact
     </div>
 
     <div class="contact-form-wrap">
-      <!--
-        TODO (Josh): point this form at your GHL inbound webhook URL,
-        same pattern as Atlas Door / Air Conditioning Texas.
-        Swap the action="" below for your GHL webhook endpoint.
-      -->
-      <form class="contact-form" id="contactForm" action="https://services.leadconnectorhq.com/hooks/REPLACE_WITH_YOUR_WEBHOOK_ID" method="POST">
+      <form class="contact-form" id="contactForm" action="https://formsubmit.co/crossmademe144555@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New message from crossmademe.github.io">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="https://crossmademe.github.io/cmm/contact.html">
         <div class="form-row">
           <label for="name">Full Name</label>
-          <input type="text" id="name" name="full_name" required>
+          <input type="text" id="name" name="Full Name" required>
         </div>
         <div class="form-row">
           <label for="email">Email</label>
-          <input type="email" id="email" name="email" required>
+          <input type="email" id="email" name="Email" required>
         </div>
         <div class="form-row">
           <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" name="phone" required>
+          <input type="tel" id="phone" name="Phone Number" required>
         </div>
         <div class="form-row">
           <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
+          <textarea id="message" name="Message" rows="5" required></textarea>
         </div>
         <div class="form-row consent-row">
           <label class="checkbox-label">
-            <input type="checkbox" name="sms_consent" required>
+            <input type="checkbox" name="sms_consent">
             <span>I agree to receive SMS communication from Cross Made Me Ministries regarding events, prayer requests, and ministry updates. Message frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out. Reply HELP for help. Consent is not a condition of participation.</span>
           </label>
         </div>
