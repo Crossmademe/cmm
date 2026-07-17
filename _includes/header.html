@@ -1,0 +1,15 @@
+<header class="navbar">
+  <div class="container nav-wrap">
+    <a href="index.html" class="brand">
+      <img src="cmm.png" class="logo" alt="Cross Made Me Ministries">
+    </a>
+    <nav>
+      <a href="index.html"{% if page.active == 'home' %} class="active"{% endif %}>Home</a>
+      <a href="about.html"{% if page.active == 'about' %} class="active"{% endif %}>About</a>
+      <a href="blog.html"{% if page.active == 'blog' %} class="active"{% endif %}>Blog</a>
+      <a href="contact.html"{% if page.active == 'contact' %} class="active"{% endif %}>Contact</a>
+    </nav>
+    <a class="btn outline small" href="contact.html">Get Connected</a>
+    <button class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
